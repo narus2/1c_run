@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:res="clr-namespace:WpfApp1.Properties"
+        mc:Ignorable="d"
+        Title="{x:Static res:Resources.Tite}" Height="350" Width="503.88" Foreground="#FFF12929" Background="White"
+        >
+    <Grid Margin="419.333,0,0,252">
+        <Button Content="{x:Static res:Resources.btRunEnterprise}"  Click="Button_Click" Margin="0,0,0,30"/>
+        <ListView Name="ListView1"  HorizontalAlignment="Left" Height="279" Margin="-415.333,6,0,-218" VerticalAlignment="Top" Width="398">
+           
+
+        </ListView>
+
+    </Grid>
+</Window>
